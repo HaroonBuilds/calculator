@@ -37,9 +37,15 @@ buttons.forEach(function (button) {
                     display.textContent = result;
                 }
 
+                currentNumber = "";
+                firstNumber = null;
+                secondNumber = null;
+                operator = null;
+                
+
             }
         }
-        if(button.textContent == "C") {
+        if(button.textContent == "AC") {
             firstNumber = null;
             secondNumber = null;
             currentNumber = "";
